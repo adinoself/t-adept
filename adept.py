@@ -15,7 +15,7 @@ import base64
 
 auth_key = st.secrets['auth_key']
 
-st.header("Transcription Service")
+st.header("Songa Prime Transcription")
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
