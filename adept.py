@@ -209,7 +209,7 @@ if authentication_status:
         with ZipFile('transcription.zip', 'w') as zip_file:
             zip_file.write('plain text transcript.docx')
             zip_file.write('transcript with speaker labels.docx')
-            zip_file.write('transcript with time stamps.docx')
+            zip_file.write('transcript with time stamps.txt')
 
         # Generate base64 encoded data for the zip file
         with open("transcription.zip", "rb") as zip_file:
