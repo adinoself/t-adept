@@ -27,7 +27,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # --- USER AUTHENTICATION ---
 names = ["Joseph Modi", "Emmah Wavinya", "Fuji Cheruiyot", "Eva Kimani", "Yusuf Kariuki", "George Orembo"]
-usernames = ["adinoself", "transcriber1", "transcriber2", "transcriber3", "transcriber4", "transcriber5", "transcriber6", "transcriber7", "transcriber8", "transcriber9", "transcriber10"]
+usernames = ["adinoself", "missdivine", "fujicheruiyot", "evakimani", "yusufkariuki", "georgeorembo"]
 credentials = {"usernames": {}}
 
 # LOAD HASHED PASSWORDS
