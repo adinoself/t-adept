@@ -201,7 +201,7 @@ if authentication_status:
         result = requests.get(endpoint, headers=headers).json()
         srt_endpoint = endpoint + "/srt"
         srt_response = requests.get(srt_endpoint, headers=headers)
-        with open("transcript with time stamps.docx", "w") as _file:
+        with open("transcript with time stamps.txt", "w") as _file:
             _file.write(srt_response.text)
             print(srt_response)
 
