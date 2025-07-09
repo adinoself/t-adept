@@ -69,7 +69,6 @@ if authentication_status:
             "summarization": True,
             "summary_model": "conversational",
             "summary_type": "bullets",  # Enable summarization
-            "auto_chapters": True,  # Required for summary to work!
         }
         headers = {
             "authorization": auth_key,
