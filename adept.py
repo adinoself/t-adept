@@ -67,7 +67,7 @@ if authentication_status:
             "audio_url": url,
             "speaker_labels": True,
             "summarization": True,
-            "summary_model": "informative",
+            "summary_model": "conversational",
             "summary_type": "bullets",  # Enable summarization
             "auto_chapters": True,  # Required for summary to work!
         }
