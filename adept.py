@@ -145,7 +145,7 @@ if authentication_status:
         # Write summary
         summary_text = result.get("summary", "Summary not available.")
         with open("summary.txt", "w") as f:
-            f.write(summary_text)
+            f.write(str(summary_text))
 
         # Zip
         with ZipFile('transcription.zip', 'w') as zip_file:
