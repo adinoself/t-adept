@@ -66,7 +66,10 @@ if authentication_status:
         json = {
             "audio_url": url,
             "speaker_labels": True,
+            "summarization": True,
+            "summary_model": "informative",
             "summary_type": "bullets"  # Enable summarization
+            "auto_chapters": True  # Required for summary to work!
         }
         headers = {
             "authorization": auth_key,
